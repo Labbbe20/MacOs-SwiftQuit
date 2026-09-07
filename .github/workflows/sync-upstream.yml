@@ -140,13 +140,14 @@ jobs:
             name="$(printf '%s' "$release_json" | jq -r '.name // .tag_name')"
             body="$(printf '%s' "$release_json" | jq -r '.body // ""')"
             prerelease="$(printf '%s' "$release_json" | jq -r '.prerelease')"
+            target_commitish="$(git rev-list -n 1 "$tag")"
 
             release_payload="$workdir/release-${release_count}.json"
             target_release_file="$workdir/target-release-${release_count}.json"
 
             jq -n \
               --arg tag "$tag" \
-              --arg target "$tag" \
+              --arg target "$target_commitish" \
               --arg name "$name" \
               --arg body "$body" \
               --argjson prerelease "$prerelease" \
