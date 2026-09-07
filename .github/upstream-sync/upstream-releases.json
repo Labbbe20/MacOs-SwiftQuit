@@ -1,0 +1,65 @@
+{
+  "upstream_repository": "onebadidea/swiftquit",
+  "releases": [
+    {
+      "tag_name": "v1.5",
+      "name": "Swift Quit v1.5",
+      "body": "- Removed unnecessary options\r\n- Code cleanup\r\n- Add ability to hide menubar\r\n- Changed settings shortcut and label\r\n- Fix issue with Launch on Login option\r\n\r\n**Full Changelog**: https://github.com/onebadidea/swiftquit/compare/v1.4...v1.5",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2023-03-13T22:16:18Z",
+      "updated_at": "2023-03-16T13:36:51Z",
+      "published_at": "2023-03-13T22:20:54Z",
+      "assets": [
+        {
+          "id": 99650494,
+          "name": "Swift.Quit.zip",
+          "size": 1078058,
+          "content_type": "application/zip",
+          "updated_at": "2023-03-16T13:36:51Z",
+          "digest": null
+        }
+      ]
+    },
+    {
+      "tag_name": "v1.4",
+      "name": "Swift Quit v1.4",
+      "body": "- Added check for app.isFinishedLaunching\r\n- Make Finder and Spotlight excluded by default\r\n\r\n**Full Changelog**: https://github.com/onebadidea/swiftquit/compare/v1.3...v1.4",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2023-03-03T18:18:18Z",
+      "updated_at": "2023-03-03T18:24:34Z",
+      "published_at": "2023-03-03T18:24:34Z",
+      "assets": [
+        {
+          "id": 97942625,
+          "name": "Swift.Quit.zip",
+          "size": 1750780,
+          "content_type": "application/zip",
+          "updated_at": "2023-03-03T18:24:29Z",
+          "digest": null
+        }
+      ]
+    },
+    {
+      "tag_name": "v1.3",
+      "name": "Swift Quit v1.3",
+      "body": "## What's Changed\r\n* fixes #3: quit apps after 2 seconds delay by @incanus in https://github.com/onebadidea/swiftquit/pull/9\r\n* fixes #6: ignore \"window close\" events when they mean tabs by @incanus in https://github.com/onebadidea/swiftquit/pull/8\r\n* Add option to only quit list of user selected apps Issue #12 by @logwet in https://github.com/onebadidea/swiftquit/pull/15\r\n\r\n## New Contributors\r\n* @incanus made their first contribution in https://github.com/onebadidea/swiftquit/pull/9\r\n* @logwet made their first contribution in https://github.com/onebadidea/swiftquit/pull/15\r\n\r\n**Full Changelog**: https://github.com/onebadidea/swiftquit/commits/v1.3",
+      "draft": false,
+      "prerelease": false,
+      "created_at": "2023-02-18T20:35:52Z",
+      "updated_at": "2023-02-19T15:25:27Z",
+      "published_at": "2023-02-19T15:25:27Z",
+      "assets": [
+        {
+          "id": 96285017,
+          "name": "Swift.Quit.zip",
+          "size": 1749576,
+          "content_type": "application/zip",
+          "updated_at": "2023-02-19T15:23:46Z",
+          "digest": null
+        }
+      ]
+    }
+  ]
+}
